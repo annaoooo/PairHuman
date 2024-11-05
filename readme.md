@@ -1,6 +1,6 @@
 
 ## PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation
-This data is a high-quality benchmark dataset specifically designed for dual-person portrait generation. 
+**This data is a high-quality benchmark dataset specifically designed for dual-person portrait generation.**
 
 ## 💡 Highlights
 
@@ -12,6 +12,7 @@ This data is a high-quality benchmark dataset specifically designed for dual-per
 
 - 🔥  **Rich data annotations:** The dataset includes detailed captions, attribute tags about individuals and scenes, human bounding boxes, masks, human keypoints, and face bounding boxes.
 
+## Dataset Comparison
 | **Dataset** | **Image** | **Human-Centric** | **Photographic Quality** | **Two Person** | **Detailed Captions** | **Attribute Tags** | **Human BBoxes** | **Human Masks** | **Key-points** | **Face BBoxes** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Laion400M & Laion 5B| 47B/58.5B | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -27,7 +28,7 @@ This data is a high-quality benchmark dataset specifically designed for dual-per
 | **PairHuman** | 100K | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 
-## Data Structure Documentation
+## Documentation of Annotation Structure
 ```none
 Root
 │
