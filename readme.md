@@ -1,7 +1,5 @@
 
 ### PairHuman Dataset
-This dataset is curated from LAION, CC, SBU, SAM, COCO, web-landmark, web-celebrity, wikiart, etc, resulting in total 102K high-quality image-text pairs with the help of powerful GPT4-Vision.
-
 This data is a high-quality benchmark dataset specifically designed for dual-person portrait generation. The key advantages of PairHuman include: 
 
 (i) Extensive and diverse visual content: PairHuman contains over 100K images, covering four primary topics: couples, weddings, female friends, and parent-child. Each topic provides a wide variety of scenes, attire, actions, and compositions. 
