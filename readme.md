@@ -2,18 +2,6 @@
 ## PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation
 This data is a high-quality benchmark dataset specifically designed for dual-person portrait generation. 
 
-## Accessing the Dataset
-To request access to the dataset, please complete the required form available at the following link:
-
-[Access Request Form](https://docs.google.com/forms/d/e/1FAIpQLSdmo3d6IQDp9CRIIOHmjH2N0ajbqY_5h9DNPUFcH45WRQ6N1g/viewform?usp=sf_link)
-
-### Instructions:
-1. Click on the link above.
-2. Fill out the form with all the requested details.
-3. Submit the form.
-4. Once approved, you will receive a link to download the dataset.
-
-
 ## 💡 Highlights
 
 - 🔥  **Extensive and diverse visual content:** PairHuman contains over 100K images, covering four primary topics: couples, weddings, female friends, and parent-child. Each topic provides a wide variety of scenes, attire, actions, and compositions. 
@@ -118,5 +106,24 @@ Examples of PairHuman Dataset Annotations, including bounding boxes, keypoints, 
 ![Teaser image](./analysis.png)
 (a) Distribution of high-frequency shooting scenes, (b) Distribution of full-body, half-body, and close-up portraits, (c) Visibility of keypoints in training and testing sets, (d) Ratio distribution of human bounding box area, height, and width relative to the entire image, (e) Distribution of common human actions, (f) Correlation between attire items and descriptive adjectives, (g) Frequency distribution of clothing and accessories.
 
-## Usage and License Notices.
-The PairHuman dataset was carefully curated to ensure that all images are free from pornography, violence, bias, or discrimination through a stringent review process. Our data annotations do not include any personal biometric information, such as identity. Only general attribute information is included, such as gender, age range, attire, and actions. Subsequent use of the dataset requires that the images are used solely for training and not for display in publications. This dataset will be provided exclusively for research purposes at academic institutions. We will make every effort to control the application and acquisition process to avoid potential misuse and abuse.
+## Usage and License Notices
+
+### Data Curation and Ethical Standards
+The PairHuman dataset was curated with strict standards to ensure that all content adheres to ethical guidelines:
+- **Content Quality**: All images in the dataset have been carefully reviewed to ensure they are free from pornography, violence, bias, or discrimination.
+- **Anonymity and Privacy**: Data annotations do not include any personal biometric information, such as identity. Only general attribute information is included, such as gender, age range, attire, and actions. 
+
+### Usage Restrictions
+The dataset is provided with specific usage limitations to maintain its intended purpose and ethical integrity:
+1. **Training Purposes Only**: The images in this dataset are to be used solely for training purposes.
+2. **Publication Restriction**: Displaying or publishing any images from the dataset is strictly prohibited.
+3. **Research Exclusivity**: This dataset is intended exclusively for non-commercial academic research purposes and is available only to accredited institutions.
+
+### Access Control and Misuse Prevention
+To prevent potential misuse and abuse of the dataset:
+- Access to the dataset will be granted only after a thorough application review.
+- We are committed to managing the application and acquisition process rigorously to ensure compliance with the terms and conditions.
+
+### Requesting Access
+To request access to the PairHuman dataset, please complete the application form available at:
+[Request Access to PairHuman Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdmo3d6IQDp9CRIIOHmjH2N0ajbqY_5h9DNPUFcH45WRQ6N1g/viewform?usp=sf_link)
