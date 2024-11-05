@@ -17,11 +17,11 @@ This data is a high-quality benchmark dataset specifically designed for dual-per
 | **PairHuman** | 100K | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ## dataset samples
-![Teaser image](./ffhq-teaser.png)
+![Teaser image](./annotation_display.png)
 Examples of PairHuman Dataset Annotations, including bounding boxes, keypoints, masks, and image captions. Image captions are color-coded for clarity: orange for persons, green for actions, blue for attire, and purple for backgrounds.
 
 ## dataset statistical analysis
-
+![Teaser image](.analysis.png)
 (a) Distribution of high-frequency shooting scenes, (b) Distribution of full-body, half-body, and close-up portraits, (c) Visibility of keypoints in training and testing sets, (d) Ratio distribution of human bounding box area, height, and width relative to the entire image, (e) Distribution of common human actions, (f) Correlation between attire items and descriptive adjectives, (g) Frequency distribution of clothing and accessories.
 
 ## 💡 Highlights
