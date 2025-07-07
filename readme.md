@@ -111,20 +111,23 @@ Examples of PairHuman Dataset Annotations, including bounding boxes, keypoints, 
 
 ### Data Curation and Ethical Standards
 The PairHuman dataset was curated with strict standards to ensure that all content adheres to ethical guidelines:
-- **Content Quality**: All images in the dataset have been carefully reviewed to ensure they are free from pornography, violence, bias, or discrimination.
-- **Anonymity and Privacy**: Data annotations do not include any personal biometric information, such as identity. Only general attribute information is included, such as gender, age range, attire, and actions. 
+- **Content Quality**: All images in the dataset have been manually reviewed to ensure they are free from pornography, violence, bias, or discrimination.
+- **Anonymity and Privacy**:  Data annotations do not include any personally identifiable or biometric information (e.g., facial identity). Only general attribute information is included, such as gender, age range, attire, and actions. 
 
 ### Usage Restrictions
-The dataset is provided with specific usage limitations to maintain its intended purpose and ethical integrity:
-1. **Training Purposes Only**: The images in this dataset are to be used solely for training purposes.
-2. **Publication Restriction**: Displaying or publishing any images from the dataset is strictly prohibited.
-3. **Research Exclusivity**: This dataset is intended exclusively for non-commercial academic research purposes and is available only to accredited institutions.
+The dataset is provided with specific usage limitations:
+- **Training Purposes Only**: The images in this dataset are to be used solely for training purposes.
+- **Publication Restriction**: Displaying or publishing any images from the dataset is strictly prohibited.
+- **Intended Use**: The dataset is intended exclusively for non-commercial academic research purposes and is available only to accredited institutions.
 
 ### Access Control and Misuse Prevention
 To prevent potential misuse and abuse of the dataset:
 - Access to the dataset will be granted only after a thorough application review.
-- We are committed to managing the application and acquisition process rigorously to ensure compliance with the terms and conditions.
+- Redistribution or resale of the dataset images is strictly prohibited.
+- Any use in commercial, entertainment, or public-facing applications (including marketing, product development, or online demonstrations) is strictly forbidden.
 
 ### Requesting Access
 To request access to the PairHuman dataset, please complete the application form available at:
 [Request Access to PairHuman Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdmo3d6IQDp9CRIIOHmjH2N0ajbqY_5h9DNPUFcH45WRQ6N1g/viewform?usp=sf_link)
+
+
