@@ -112,7 +112,9 @@ Examples of PairHuman Dataset Annotations, including bounding boxes, keypoints, 
 ### Data Curation and Ethical Standards
 The PairHuman dataset was curated with strict standards to ensure that all content adheres to ethical guidelines:
 - **Content Quality**: All images in the dataset have been manually reviewed to ensure they are free from pornography, violence, bias, or discrimination.
-- **Anonymity and Privacy**:  Data annotations do not include any personally identifiable or biometric information (e.g., facial identity). Only general attribute information is included, such as gender, age range, attire, and actions. 
+- **Anonymity and Privacy**:  Data annotations do not include any personally identifiable or biometric information (e.g., facial identity). Only general attribute information is included, such as gender, age range, attire, and actions.
+- **Metadata Removal**: All EXIF data, geolocation tags, and source metadata have been systematically stripped from images to prevent accidental privacy disclosure.
+- **Sensitive Content Exclusion**: Images depicting private or sensitive scenarios were excluded during manual screening.
 
 ### Usage Restrictions
 The dataset is provided with specific usage limitations:
@@ -129,5 +131,15 @@ To prevent potential misuse and abuse of the dataset:
 ### Requesting Access
 To request access to the PairHuman dataset, please complete the application form available at:
 [Request Access to PairHuman Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdmo3d6IQDp9CRIIOHmjH2N0ajbqY_5h9DNPUFcH45WRQ6N1g/viewform?usp=sf_link)
+
+### Synthetic Face Replacement Pipeline
+
+To preserve the rich diversity of clothing, poses, and scenes in the original dataset while ensuring privacy compliance, we implemented a face replacement-based anonymization strategy. Using Flux, we generated a varied library of synthetic faces representing adults and children of different genders. These synthetic faces were then used in FaceFusion to replace all original faces in the dual-portrait images.
+
+The replacement process was carefully designed to accommodate four distinct types of portraits in our dataset:
+
+- **Wedding and couple portraits (different genders)**: We sequentially replaced the faces by first configuring the “face_selector_gender” parameter to ‘male’ to replace the male subject, and then switching the parameter to ‘female’ to replace the female subject.
+- **Female friends portraits (same-gender pairs)**: We performed the replacement in two steps: initially setting the “face_selector_order” to left-right to replace the first face, and then changing it to right-left to replace the second.
+- **Parent-child portraits**: We utilized the original age and gender annotations within the dataset to guide the replacement process. The “face_selector_age” parameter was first set to 0-15 to identify and replace the child's face, selecting a synthetic child face of the corresponding gender from our pre-generated library. Subsequently, the “face_selector_age” was adjusted to 20-100 to target the parent's face, which was then replaced with a synthetic adult face matching the parent's annotated gender.
 
 
