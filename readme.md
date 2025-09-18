@@ -116,22 +116,6 @@ The PairHuman dataset was curated with strict standards to ensure that all conte
 - **Metadata Removal**: All EXIF data, geolocation tags, and source metadata have been systematically stripped from images to prevent accidental privacy disclosure.
 - **Sensitive Content Exclusion**: Images depicting private or sensitive scenarios were excluded during manual screening.
 
-### Usage Restrictions
-The dataset is provided with specific usage limitations:
-- **Training Purposes Only**: The images in this dataset are to be used solely for training purposes.
-- **Publication Restriction**: Displaying or publishing any images from the dataset is strictly prohibited.
-- **Intended Use**: The dataset is intended exclusively for non-commercial academic research purposes and is available only to accredited institutions.
-
-### Access Control and Misuse Prevention
-To prevent potential misuse and abuse of the dataset:
-- Access to the dataset will be granted only after a thorough application review.
-- Redistribution or resale of the dataset images is strictly prohibited.
-- Any use in commercial, entertainment, or public-facing applications (including marketing, product development, or online demonstrations) is strictly forbidden.
-
-### Requesting Access
-To request access to the PairHuman dataset, please complete the application form available at:
-[Request Access to PairHuman Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdmo3d6IQDp9CRIIOHmjH2N0ajbqY_5h9DNPUFcH45WRQ6N1g/viewform?usp=sf_link)
-
 ### Synthetic Face Replacement Pipeline
 
 To preserve the rich diversity of clothing, poses, and scenes in the original dataset while ensuring privacy compliance, we implemented a face replacement-based anonymization strategy. Using Flux, we generated a varied library of synthetic faces representing adults and children of different genders. These synthetic faces were then used in FaceFusion to replace all original faces in the dual-portrait images.
