@@ -126,4 +126,15 @@ The replacement process was carefully designed to accommodate four distinct type
 - **Female friends portraits (same-gender pairs)**: We performed the replacement in two steps: initially setting the “face_selector_order” to left-right to replace the first face, and then changing it to right-left to replace the second.
 - **Parent-child portraits**: We utilized the original age and gender annotations within the dataset to guide the replacement process. The “face_selector_age” parameter was first set to 0-15 to identify and replace the child's face, selecting a synthetic child face of the corresponding gender from our pre-generated library. Subsequently, the “face_selector_age” was adjusted to 20-100 to target the parent's face, which was then replaced with a synthetic adult face matching the parent's annotated gender.
 
+## 📂 PairHuman Dataset (Subset Release)
+
+We release an anonymized subset of ~1,500 images from PairHuman, covering four representative categories of dual-person portraits. This subset offers the community an accessible sample of the dataset for reproducibility and early experimentation.  
+
+We are currently extending the anonymization pipeline to the entire dataset, and a fully anonymized release will follow to ensure accessibility and compliance with international privacy standards.  
+
+🔗 **Download (Hugging Face):** [PairHuman01.zip](https://huggingface.co/datasets/Pan1111/PairHuman01.zip)
+
+
+
+
 
