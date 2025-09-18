@@ -132,7 +132,7 @@ We release an anonymized subset of ~1,500 images from PairHuman, covering four r
 
 We are currently extending the anonymization pipeline to the entire dataset, and a fully anonymized release will follow to ensure accessibility and compliance with international privacy standards.  
 
-🔗 **Download (Hugging Face):** [PairHuman01.zip](https://huggingface.co/datasets/Pan1111/PairHuman01.zip)
+🔗 **Download (Hugging Face):** [PairHuman01.zip](https://huggingface.co/datasets/Pan1111/PairHuman01)
 
 
 
